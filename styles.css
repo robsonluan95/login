@@ -1,48 +1,46 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
-  
-  .login-container {
+
+.login-container {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     width: 300px;
     text-align: center;
-    
-  }
-  
-  h1 {
+}
+
+h1 {
     margin-bottom: 20px;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 15px;
     text-align: left;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  input {
+}
+
+input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
-  }
-  
-  button {
+}
+
+button {
     background-color: #e9f035;
     color: #000;
     border: none;
@@ -51,20 +49,42 @@ body {
     cursor: pointer;
     width: 100%;
     font-size: 16px;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #d4db2e;
-  }
-  
-  .error {
+}
+
+.error {
     color: red;
     font-size: 12px;
     height: 14px;
-  }
-  
-  .message {
+}
+
+.message {
     margin-top: 10px;
     font-size: 14px;
-  }
-  
+}
+
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+footer p {
+    margin: 0;
+}
+footer p a {
+    color: #d4db2e;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline; /* Sublinha o link quando o usuário passa o mouse */
+}
